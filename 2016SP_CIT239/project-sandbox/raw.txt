@@ -1,0 +1,12 @@
+{
+  "msg_id": "a89de6b0-31d4-42c2-ba72-b0d0272bd2b8",
+  "_text": "toggle light",
+  "outcomes": [
+    {
+      "_text": "toggle light",
+      "confidence": 0.99,
+      "intent": "bulb_toggle",
+      "entities": {}
+    }
+  ]
+}
