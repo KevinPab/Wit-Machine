@@ -1,12 +1,19 @@
 {
-  "msg_id": "a89de6b0-31d4-42c2-ba72-b0d0272bd2b8",
-  "_text": "toggle light",
+  "msg_id": "f6d7d2b7-3def-47c2-9986-617fd73d1d7f",
+  "_text": "Turn on the red light",
   "outcomes": [
     {
-      "_text": "toggle light",
-      "confidence": 0.99,
-      "intent": "bulb_toggle",
-      "entities": {}
+      "_text": "Turn on the red light",
+      "confidence": 1,
+      "intent": "bulb_turnon",
+      "entities": {
+        "color": [
+          {
+            "type": "value",
+            "value": "red"
+          }
+        ]
+      }
     }
   ]
 }

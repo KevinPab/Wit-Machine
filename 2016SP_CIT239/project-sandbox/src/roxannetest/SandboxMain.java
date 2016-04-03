@@ -16,7 +16,7 @@ public class SandboxMain {
 		
 		// Check if given file exists
 		if(!file.exists()){
-			System.out.println("No such file exist.");
+			System.out.println("No such filie exist.");
 			file.createNewFile();
 			return;
 		}
